@@ -1,11 +1,4 @@
-class Node {
-    int data;
-    Node next;
-    Node(int new_data) {
-        this.data = new_data;
-        this.next = null;
-    }
-}
+
 public class singlyLL {
     public static void main(String[]args) {
         Node head = new Node(10);
@@ -16,7 +9,7 @@ public class singlyLL {
         // printing list
         Node temp = head;
         while(temp != null){
-            System.out.println(temp.data + " ");
+            System.out.println(temp.val + " ");
             temp = temp.next;
         }
 
